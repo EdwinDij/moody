@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+.navbar {
+    margin-top: 4rem;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 1.5rem 0;
+    background-color: gray;
+}
