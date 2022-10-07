@@ -1,6 +1,14 @@
 body {
     margin: 0;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
+li, h1, h2, .learn-more {
+    text-transform: uppercase;
+}
+
 .navbar {
     margin-top: 4rem;
 }
@@ -14,6 +22,7 @@ body {
 }
 
 .right-container {
+    margin-top: 9rem;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -29,4 +38,21 @@ body {
 
 .bg-mask h2 {
     text-align: center;
+}
+
+//about
+
+.about-section {
+    margin-top: 5rem;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    align-items: center;
+}
+
+.about-subtitle {
+    width: 30rem;
 }

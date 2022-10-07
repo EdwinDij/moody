@@ -2,6 +2,15 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li, h1, h2, .learn-more {
+  text-transform: uppercase;
+}
+
 .navbar {
   margin-top: 4rem;
 }
@@ -22,6 +31,7 @@ body {
 }
 
 .right-container {
+  margin-top: 9rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -45,5 +55,27 @@ body {
 
 .bg-mask h2 {
   text-align: center;
+}
+
+.about-section {
+  margin-top: 5rem;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 24%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-subtitle {
+  width: 30rem;
 }
 /*# sourceMappingURL=index.css.map */
